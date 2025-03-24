@@ -1,0 +1,50 @@
+# === Root Level ===
+node_modules/
+.env
+.env.local
+*.log
+*.log.*
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Server (Express + Node.js) ===
+server/node_modules/
+server/.env
+server/.env.local
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/package-lock.json
+server/pnpm-lock.yaml
+server/logs/
+server/*.log
+server/coverage/
+server/.nyc_output/
+
+# === Client (React) ===
+client/node_modules/
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/build/
+client/dist/
+client/package-lock.json
+client/yarn.lock
+client/coverage/
+
+# === MongoDB Dumps ===
+dump/
+
+# === Misc ===
+*.pid
+*.pid.lock
+*.seed
